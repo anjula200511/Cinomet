@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="assets/img/logo2.png">
+
+    <title>Responsive bottom navigation</title>
+</head>
+
+<body class="bg-black">
+
+    <div id="preloader"></div>
+
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">Cinomet</a>
+            <a href="index.html" class="nav__logo2">Cinomet</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list mt-3">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-alt nav__icon' style="margin-left: -50px;"></i>
+                            <span class="nav__name" style="font-size: 20px;">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-book-alt nav__icon' style="margin-left: -20px;"></i>
+                            <span class="nav__name" style="font-size: 20px;">Services</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>
+                            <span class="nav__name" style="font-size: 20px;">About</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contactme" class="nav__link">
+                            <i class='bx bx-phone nav__icon'></i>
+                            <span class="nav__name" style="font-size: 20px;">Contact Us</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- <img src="assets\img\logo.png" alt="" class="nav__img"> -->
+        </nav>
+    </header>
+
+    <main>
+        <!--=============== HOME ===============-->
+        <section class="container section section__height" id="home">
+            <h2 class="section__title mt-5 text-start">Cinomet Technologies</h2>
+            <h3 class="section__paragraph" style="font-family: sf-regular;">Welcome to Cinomet Technologies, where
+                innovation meets excellence. We
+                are a forward-thinking software company dedicated to crafting elegant and powerful solutions that drive
+                business success. Our passion for technology fuels our commitment to delivering bespoke software that is
+                both cutting-edge and intuitive. At Cinomet Technologies, we believe in creating transformative
+                experiences through seamless integrations and data-driven insights, empowering businesses to thrive in a
+                dynamic digital world. Join us on a journey to redefine what's possible and achieve new heights with our
+                expertise and vision.</h3>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="container section section__height swiper" id="about">
+            <h2 class="section__title" style="margin-top: 60px;">Our Services</h2>
+
+            <div class="slider-wrapper">
+                <div class="card-list swiper-wrapper" style="font-family: sf-regular;">
+
+                    <div class="card-item swiper-slide">
+                        <img src="assets/img/mobile.png" alt="User Image" class="user-image">
+                        <h2 class="user-name text-center">Mobile Application Development</h2>
+                        <!-- <button class="message">Develop Now</button> -->
+                    </div>
+
+                    <div class="card-item swiper-slide">
+                        <img src="assets/img/database.png" alt="User Image" class="user-image">
+                        <h2 class="user-name text-center">Database Design Management</h2>
+                        <!-- <button class="message">Develop Now</button> -->
+                    </div>
+
+                    <div class="card-item swiper-slide">
+                        <img src="assets/img/host.png" alt="User Image" class="user-image">
+                        <h2 class="user-name text-center">Domain & Hosting Services</h2>
+                        <!-- <button class="message">Develop Now</button> -->
+                    </div>
+
+                    <div class="card-item swiper-slide">
+                        <img src="assets/img/desktop.png" alt="User Image" class="user-image">
+                        <h2 class="user-name text-center">Desktop Application Development</h2>
+                        <!-- <button class="message">Develop Now</button> -->
+                    </div>
+
+                    <div class="card-item swiper-slide">
+                        <img src="assets/img/responsive.png" alt="User Image" class="user-image">
+                        <h2 class="user-name text-center">Responsive Websites Designning</h2>
+                        <!-- <button class="message">Develop Now</button> -->
+                    </div>
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-slide-button swiper-button-prev"></div>
+                <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="container section section__height" id="skills">
+            <h2 class="section__title">About Us</h2>
+            <h4 class="text-light" style="font-family: sf-regular;">At Cinomet Technologies, we specialize in
+                transforming your ideas into powerful
+                software solutions.
+                Based in Sri Lanka, we are a passionate team of software developers dedicated to delivering innovative
+                and custom software tailored to your unique needs.<br><br>
+
+                Our mission is simple: to provide top-notch software solutions that drive efficiency, enhance
+                productivity, and help your business thrive in the digital age. Whether you need bespoke applications,
+                cutting-edge technology integrations, or comprehensive system development, we’ve got you
+                covered.<br><br>
+
+                With a blend of creativity, technical expertise, and a deep understanding of various industries, we
+                approach each project with a fresh perspective and a commitment to excellence. Our collaborative process
+                ensures that your vision is at the heart of every solution we create, from the initial concept to the
+                final product.<br><br>
+
+                At Cinomet Technologies, we’re more than just a software company; we’re your partners in innovation.
+                Join us on this journey, and let’s build something extraordinary together.</h4>
+        </section>
+
+        <!--=============== CONTACTME ===============-->
+        <section class="container section section__height" id="contactme">
+            <h2 class="section__title">Contact Us</h2>
+            <h4 class="text-light mt-1" style="font-family: sf-title;">Contact Info</h4><br>
+            <span class="text-light" style="font-family: sf-regular;"><i class="bi bi-telephone-fill"></i> +94 (78)
+                154-5383</span><br><br>
+            <span class="text-light" style="font-family: sf-regular;"><i class="bi bi-envelope-fill"></i>
+                anjula200511@gmail.com</span><br><br>
+            <span class="text-light" style="font-family: sf-regular;"><i class="bi bi-facebook"></i> Cinomet
+                Technologies</span><br><br>
+            <span class="text-light" style="font-family: sf-regular;"><i class="bi bi-geo-alt-fill"></i> No: 183/A,
+                Bhuddhi Diyawara Gammanaya, Thabbowa,
+                Puttalam</span><br><br>
+            <iframe class="location"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7900.881447504755!2d79.9471789448537!3d8.056446191939822!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afd198d7447b467%3A0x8e29d5f71f85cf53!2sAnjula!5e0!3m2!1sen!2slk!4v1726072760851!5m2!1sen!2slk"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+            <div class="whatsappChat">
+                <a href="https://wa.me/94711477341" target="_blank">
+                    <img src="assets\img\whatsapp.png" width="50" alt=""><br>
+                </a>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-5 col-12 footer" style="font-family: sf-title; color: rgb(16, 148, 224);">
+        <p class="text-center">&copy; 2024 Cinomet Tech. &nbsp;All rights reserved.</p>
+    </footer>
+    <!-- Footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
